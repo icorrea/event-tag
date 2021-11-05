@@ -4,9 +4,12 @@
 
 ## Datasets
 
-data-event-category
+- data-event-category
+- data-event-action
+- data-event-label
 
-data-event-action
+### Click Events
 
-data-event-label
-
+```
+  <a href="URL" data-event-category="my-website" data-event-action="click" data-event-label="about">About</a>
+```
